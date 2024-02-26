@@ -11,22 +11,26 @@
     background-color: #71C9CE;
 }
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 0px;
 }
 .grid-container{
     background-color: #A6E3E9;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: repeat(3,140px);
+    grid-template-rows: repeat(3,120px);
     gap: 10px;
 }
 
@@ -37,7 +41,7 @@ p{
     object-fit: cover;
 }
 .card  p,h3{
-    padding-left: 48px;
+    padding: 1px 48px;
 }
 
 .container1{
